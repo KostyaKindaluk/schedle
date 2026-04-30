@@ -25,9 +25,6 @@ jobs:
       SECRET_KEY: test-secret-key
       DEBUG: "1"
       ALLOWED_HOSTS: "*"
-      # Якщо в тебе в settings.py явно потрібен DJANGO_SETTINGS_MODULE,
-      # розкоментуй і заміни на свій:
-      # DJANGO_SETTINGS_MODULE: your_project.settings
 
     steps:
       - name: Checkout repository
