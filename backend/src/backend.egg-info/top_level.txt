@@ -1,4 +1,0 @@
-algorithm
-main_app
-scheduling_app
-user_app
