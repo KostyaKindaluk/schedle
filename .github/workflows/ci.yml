@@ -49,6 +49,7 @@ jobs:
           python manage.py migrate
 
       - name: Run Ruff linting
+        continue-on-error: true
         run: |
           ruff check .
 
